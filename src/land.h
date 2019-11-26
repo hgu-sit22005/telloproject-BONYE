@@ -5,7 +5,7 @@ class Land: public TelloPro
 {
 public:
 	Land();
-	
+	Land(int _value);
 public:
 	double get_delay();
 };

@@ -1,5 +1,7 @@
+
 #include "land.h"
 #include <cstring>
+#include <sstream>
 
 Land::Land()
 {
@@ -7,7 +9,12 @@ Land::Land()
 	strcpy(command, "land");
 }
 
+
+
 double Land::get_delay()
 { 
 	return 0; 
 }
+
+
+
