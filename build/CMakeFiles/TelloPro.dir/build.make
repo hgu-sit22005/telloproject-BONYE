@@ -273,9 +273,57 @@ CMakeFiles/TelloPro.dir/src/cw.cpp.o.provides: CMakeFiles/TelloPro.dir/src/cw.cp
 CMakeFiles/TelloPro.dir/src/cw.cpp.o.provides.build: CMakeFiles/TelloPro.dir/src/cw.cpp.o
 
 
+CMakeFiles/TelloPro.dir/src/flip.cpp.o: CMakeFiles/TelloPro.dir/flags.make
+CMakeFiles/TelloPro.dir/src/flip.cpp.o: ../src/flip.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/telloproject-BONYE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TelloPro.dir/src/flip.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TelloPro.dir/src/flip.cpp.o -c /data/telloproject-BONYE/src/flip.cpp
+
+CMakeFiles/TelloPro.dir/src/flip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TelloPro.dir/src/flip.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/telloproject-BONYE/src/flip.cpp > CMakeFiles/TelloPro.dir/src/flip.cpp.i
+
+CMakeFiles/TelloPro.dir/src/flip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TelloPro.dir/src/flip.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/telloproject-BONYE/src/flip.cpp -o CMakeFiles/TelloPro.dir/src/flip.cpp.s
+
+CMakeFiles/TelloPro.dir/src/flip.cpp.o.requires:
+
+.PHONY : CMakeFiles/TelloPro.dir/src/flip.cpp.o.requires
+
+CMakeFiles/TelloPro.dir/src/flip.cpp.o.provides: CMakeFiles/TelloPro.dir/src/flip.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TelloPro.dir/build.make CMakeFiles/TelloPro.dir/src/flip.cpp.o.provides.build
+.PHONY : CMakeFiles/TelloPro.dir/src/flip.cpp.o.provides
+
+CMakeFiles/TelloPro.dir/src/flip.cpp.o.provides.build: CMakeFiles/TelloPro.dir/src/flip.cpp.o
+
+
+CMakeFiles/TelloPro.dir/src/ccw.cpp.o: CMakeFiles/TelloPro.dir/flags.make
+CMakeFiles/TelloPro.dir/src/ccw.cpp.o: ../src/ccw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/telloproject-BONYE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TelloPro.dir/src/ccw.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TelloPro.dir/src/ccw.cpp.o -c /data/telloproject-BONYE/src/ccw.cpp
+
+CMakeFiles/TelloPro.dir/src/ccw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TelloPro.dir/src/ccw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/telloproject-BONYE/src/ccw.cpp > CMakeFiles/TelloPro.dir/src/ccw.cpp.i
+
+CMakeFiles/TelloPro.dir/src/ccw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TelloPro.dir/src/ccw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/telloproject-BONYE/src/ccw.cpp -o CMakeFiles/TelloPro.dir/src/ccw.cpp.s
+
+CMakeFiles/TelloPro.dir/src/ccw.cpp.o.requires:
+
+.PHONY : CMakeFiles/TelloPro.dir/src/ccw.cpp.o.requires
+
+CMakeFiles/TelloPro.dir/src/ccw.cpp.o.provides: CMakeFiles/TelloPro.dir/src/ccw.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TelloPro.dir/build.make CMakeFiles/TelloPro.dir/src/ccw.cpp.o.provides.build
+.PHONY : CMakeFiles/TelloPro.dir/src/ccw.cpp.o.provides
+
+CMakeFiles/TelloPro.dir/src/ccw.cpp.o.provides.build: CMakeFiles/TelloPro.dir/src/ccw.cpp.o
+
+
 CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: CMakeFiles/TelloPro.dir/flags.make
 CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/python_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/telloproject-BONYE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TelloPro.dir/src/python_interface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/telloproject-BONYE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TelloPro.dir/src/python_interface.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TelloPro.dir/src/python_interface.cpp.o -c /data/telloproject-BONYE/src/python_interface.cpp
 
 CMakeFiles/TelloPro.dir/src/python_interface.cpp.i: cmake_force
@@ -308,6 +356,8 @@ TelloPro_OBJECTS = \
 "CMakeFiles/TelloPro.dir/src/forward.cpp.o" \
 "CMakeFiles/TelloPro.dir/src/back.cpp.o" \
 "CMakeFiles/TelloPro.dir/src/cw.cpp.o" \
+"CMakeFiles/TelloPro.dir/src/flip.cpp.o" \
+"CMakeFiles/TelloPro.dir/src/ccw.cpp.o" \
 "CMakeFiles/TelloPro.dir/src/python_interface.cpp.o"
 
 # External object files for target TelloPro
@@ -322,13 +372,15 @@ TelloPro_EXTERNAL_OBJECTS =
 ../bin/TelloPro.so: CMakeFiles/TelloPro.dir/src/forward.cpp.o
 ../bin/TelloPro.so: CMakeFiles/TelloPro.dir/src/back.cpp.o
 ../bin/TelloPro.so: CMakeFiles/TelloPro.dir/src/cw.cpp.o
+../bin/TelloPro.so: CMakeFiles/TelloPro.dir/src/flip.cpp.o
+../bin/TelloPro.so: CMakeFiles/TelloPro.dir/src/ccw.cpp.o
 ../bin/TelloPro.so: CMakeFiles/TelloPro.dir/src/python_interface.cpp.o
 ../bin/TelloPro.so: CMakeFiles/TelloPro.dir/build.make
 ../bin/TelloPro.so: /usr/local/lib/libboost_system.so
 ../bin/TelloPro.so: /usr/local/lib/libboost_python3.so
 ../bin/TelloPro.so: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
 ../bin/TelloPro.so: CMakeFiles/TelloPro.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/data/telloproject-BONYE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared module ../bin/TelloPro.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/data/telloproject-BONYE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared module ../bin/TelloPro.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TelloPro.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -345,6 +397,8 @@ CMakeFiles/TelloPro.dir/requires: CMakeFiles/TelloPro.dir/src/right.cpp.o.requir
 CMakeFiles/TelloPro.dir/requires: CMakeFiles/TelloPro.dir/src/forward.cpp.o.requires
 CMakeFiles/TelloPro.dir/requires: CMakeFiles/TelloPro.dir/src/back.cpp.o.requires
 CMakeFiles/TelloPro.dir/requires: CMakeFiles/TelloPro.dir/src/cw.cpp.o.requires
+CMakeFiles/TelloPro.dir/requires: CMakeFiles/TelloPro.dir/src/flip.cpp.o.requires
+CMakeFiles/TelloPro.dir/requires: CMakeFiles/TelloPro.dir/src/ccw.cpp.o.requires
 CMakeFiles/TelloPro.dir/requires: CMakeFiles/TelloPro.dir/src/python_interface.cpp.o.requires
 
 .PHONY : CMakeFiles/TelloPro.dir/requires

@@ -150,6 +150,33 @@ src/back.cpp.s:
 	$(MAKE) -f CMakeFiles/TelloPro.dir/build.make CMakeFiles/TelloPro.dir/src/back.cpp.s
 .PHONY : src/back.cpp.s
 
+src/ccw.o: src/ccw.cpp.o
+
+.PHONY : src/ccw.o
+
+# target to build an object file
+src/ccw.cpp.o:
+	$(MAKE) -f CMakeFiles/TelloPro.dir/build.make CMakeFiles/TelloPro.dir/src/ccw.cpp.o
+.PHONY : src/ccw.cpp.o
+
+src/ccw.i: src/ccw.cpp.i
+
+.PHONY : src/ccw.i
+
+# target to preprocess a source file
+src/ccw.cpp.i:
+	$(MAKE) -f CMakeFiles/TelloPro.dir/build.make CMakeFiles/TelloPro.dir/src/ccw.cpp.i
+.PHONY : src/ccw.cpp.i
+
+src/ccw.s: src/ccw.cpp.s
+
+.PHONY : src/ccw.s
+
+# target to generate assembly for a file
+src/ccw.cpp.s:
+	$(MAKE) -f CMakeFiles/TelloPro.dir/build.make CMakeFiles/TelloPro.dir/src/ccw.cpp.s
+.PHONY : src/ccw.cpp.s
+
 src/cw.o: src/cw.cpp.o
 
 .PHONY : src/cw.o
@@ -203,6 +230,33 @@ src/down.s: src/down.cpp.s
 src/down.cpp.s:
 	$(MAKE) -f CMakeFiles/TelloPro.dir/build.make CMakeFiles/TelloPro.dir/src/down.cpp.s
 .PHONY : src/down.cpp.s
+
+src/flip.o: src/flip.cpp.o
+
+.PHONY : src/flip.o
+
+# target to build an object file
+src/flip.cpp.o:
+	$(MAKE) -f CMakeFiles/TelloPro.dir/build.make CMakeFiles/TelloPro.dir/src/flip.cpp.o
+.PHONY : src/flip.cpp.o
+
+src/flip.i: src/flip.cpp.i
+
+.PHONY : src/flip.i
+
+# target to preprocess a source file
+src/flip.cpp.i:
+	$(MAKE) -f CMakeFiles/TelloPro.dir/build.make CMakeFiles/TelloPro.dir/src/flip.cpp.i
+.PHONY : src/flip.cpp.i
+
+src/flip.s: src/flip.cpp.s
+
+.PHONY : src/flip.s
+
+# target to generate assembly for a file
+src/flip.cpp.s:
+	$(MAKE) -f CMakeFiles/TelloPro.dir/build.make CMakeFiles/TelloPro.dir/src/flip.cpp.s
+.PHONY : src/flip.cpp.s
 
 src/forward.o: src/forward.cpp.o
 
@@ -405,12 +459,18 @@ help:
 	@echo "... src/back.o"
 	@echo "... src/back.i"
 	@echo "... src/back.s"
+	@echo "... src/ccw.o"
+	@echo "... src/ccw.i"
+	@echo "... src/ccw.s"
 	@echo "... src/cw.o"
 	@echo "... src/cw.i"
 	@echo "... src/cw.s"
 	@echo "... src/down.o"
 	@echo "... src/down.i"
 	@echo "... src/down.s"
+	@echo "... src/flip.o"
+	@echo "... src/flip.i"
+	@echo "... src/flip.s"
 	@echo "... src/forward.o"
 	@echo "... src/forward.i"
 	@echo "... src/forward.s"

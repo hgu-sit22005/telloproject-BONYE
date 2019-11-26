@@ -5,8 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/data/telloproject-BONYE/src/back.cpp" "/data/telloproject-BONYE/build/CMakeFiles/TelloPro.dir/src/back.cpp.o"
+  "/data/telloproject-BONYE/src/ccw.cpp" "/data/telloproject-BONYE/build/CMakeFiles/TelloPro.dir/src/ccw.cpp.o"
   "/data/telloproject-BONYE/src/cw.cpp" "/data/telloproject-BONYE/build/CMakeFiles/TelloPro.dir/src/cw.cpp.o"
   "/data/telloproject-BONYE/src/down.cpp" "/data/telloproject-BONYE/build/CMakeFiles/TelloPro.dir/src/down.cpp.o"
+  "/data/telloproject-BONYE/src/flip.cpp" "/data/telloproject-BONYE/build/CMakeFiles/TelloPro.dir/src/flip.cpp.o"
   "/data/telloproject-BONYE/src/forward.cpp" "/data/telloproject-BONYE/build/CMakeFiles/TelloPro.dir/src/forward.cpp.o"
   "/data/telloproject-BONYE/src/land.cpp" "/data/telloproject-BONYE/build/CMakeFiles/TelloPro.dir/src/land.cpp.o"
   "/data/telloproject-BONYE/src/left.cpp" "/data/telloproject-BONYE/build/CMakeFiles/TelloPro.dir/src/left.cpp.o"

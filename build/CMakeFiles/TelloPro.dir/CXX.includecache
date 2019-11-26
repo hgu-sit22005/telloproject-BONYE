@@ -22,6 +22,18 @@ sstream
 TelloPro.h
 /data/telloproject-BONYE/src/TelloPro.h
 
+/data/telloproject-BONYE/src/ccw.cpp
+ccw.h
+/data/telloproject-BONYE/src/ccw.h
+cstring
+-
+sstream
+-
+
+/data/telloproject-BONYE/src/ccw.h
+TelloPro.h
+/data/telloproject-BONYE/src/TelloPro.h
+
 /data/telloproject-BONYE/src/cw.cpp
 cw.h
 /data/telloproject-BONYE/src/cw.h
@@ -43,6 +55,18 @@ sstream
 -
 
 /data/telloproject-BONYE/src/down.h
+TelloPro.h
+/data/telloproject-BONYE/src/TelloPro.h
+
+/data/telloproject-BONYE/src/flip.cpp
+flip.h
+/data/telloproject-BONYE/src/flip.h
+cstring
+-
+sstream
+-
+
+/data/telloproject-BONYE/src/flip.h
 TelloPro.h
 /data/telloproject-BONYE/src/TelloPro.h
 
@@ -105,6 +129,10 @@ back.h
 /data/telloproject-BONYE/src/back.h
 cw.h
 /data/telloproject-BONYE/src/cw.h
+ccw.h
+/data/telloproject-BONYE/src/ccw.h
+flip.h
+/data/telloproject-BONYE/src/flip.h
 
 /data/telloproject-BONYE/src/right.cpp
 right.h

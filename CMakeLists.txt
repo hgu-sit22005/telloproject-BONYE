@@ -22,6 +22,8 @@ add_library(TelloPro MODULE src/takeoff.cpp
 							src/forward.cpp
 							src/back.cpp
 							src/cw.cpp
+							src/flip.cpp
+							src/ccw.cpp
 							src/python_interface.cpp
 
 							)

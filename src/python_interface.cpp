@@ -10,6 +10,8 @@
 #include "forward.h"
 #include "back.h"
 #include "cw.h"
+#include "ccw.h"
+#include "flip.h"
 
 
 
@@ -36,6 +38,10 @@ TelloPro* get_instance(boost::python::str _inst, int _value)
 		return new Back(_value);
 	else if(instance == "cw")
 		return new Cw(_value);
+	else if(instance == "flip")
+		return new Flip(_value);
+	else if(instance == "cw")
+		return new Ccw(_value);
 
 	else
 		return nullptr;
