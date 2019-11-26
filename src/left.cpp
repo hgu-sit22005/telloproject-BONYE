@@ -5,8 +5,8 @@
 
 Left::Left()
 {
-	command = new char[strlen("land")+1];
-	strcpy(command, "land");
+	command = new char[strlen("land 20")+1];
+	strcpy(command, "land 20");
 }
 
 
@@ -20,7 +20,7 @@ Left::Left(int _value)
 
 double Left::get_delay()
 { 
-	return 0; 
+	return 5; 
 }
 
 
